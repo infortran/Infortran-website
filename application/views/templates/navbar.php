@@ -1,14 +1,14 @@
 <header class="container-fluid custom-navbar">
-	<div class="col-md-11 borde">
-		<div class="borde navbar-radius margin-top-15 container-fluid" style="padding:12px">
-			<div class="col-md-3 text-center">Inicio</div>
-			<div class="col-md-3 text-center">Servicios</div>
-			<div class="col-md-3 text-center">Contacto</div>
-			<div class="col-md-3 text-center">Quienes somos</div>
+	<div class="col-md-11" id="navbar-btns">
+		<div class=" margin-top-15 container-fluid">
+			<div class="col-md-3 text-center div-hover navbar-radius ">Inicio</div>
+			<div class="col-md-3 text-center div-hover">Servicios</div>
+			<div class="col-md-3 text-center div-hover">Contacto</div>
+			<div class="col-md-3 text-center div-hover">Quienes somos</div>
 		</div>
 	</div>
 	<div class="col-md-1">
-		<div class="img">
+		<div class="img btn-navbar img-circle">
 			<img class="img-responsive" src="<?php echo base_url() ?>assets/img/logo_in.png" alt="">
 			
 		</div>
