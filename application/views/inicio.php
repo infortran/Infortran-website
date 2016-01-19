@@ -11,13 +11,15 @@
 
 	<!-- 4 contenedores-->
 	<div class="row">
-		<div class="col-md-6">contenedor 1</div>
-		<div class="col-md-6"> contenedor 2</div>
+		<div class="col-md-4">contenedor 1</div>
+		<div class="col-md-4">contenedor 2</div>
+		<div class="col-md-4">contenedor 3</div>
 	</div>
 
 	<div class="row">
-		<div class="col-md-6">contenedor 3</div>
-		<div class="col-md-6">contenedor 4</div>
+		<div class="col-md-4">contenedor 4</div>
+		<div class="col-md-4">contenedor 5</div>
+		<div class="col-md-4">contenedor 6</div>
 	</div>
 </section>
 
