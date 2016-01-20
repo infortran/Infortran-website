@@ -1,12 +1,32 @@
-
+body{
+	background:#cfcfcf;
+}
 header{
 	margin-top:10px;
+}
+
+.nopadding{
+	padding:0 !important;
+}
+
+.nomargin{
+	margin:0 !important;
+}
+
+.img-navbar-nav{
+	padding:5px;
+}
+.contenedores{
+	height:500px;
+	background:#efefef;
+	
 }
 
 
 .custom-navbar{
 	position:fixed;
 	width:100%;
+	z-index:10000;
 }
 
 .slideshow{
@@ -28,6 +48,9 @@ header{
 	border-radius:17px 0px 0px 17px;
 }
 
+.navbar-radius-inverse{
+	border-radius: 0px 17px 17px 0px ;
+}
 .div-hover{
 	padding:15px;
 	background:rgba(255,255,255,.4);

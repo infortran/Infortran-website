@@ -1,10 +1,10 @@
 <header class="container-fluid custom-navbar">
 	<div class="col-md-11" id="navbar-btns">
 		<div class=" margin-top-15 container-fluid">
-			<div class="col-md-3 text-center div-hover navbar-radius ">Inicio</div>
+			<div class="col-md-3 text-center div-hover navbar-radius">Inicio</div>
 			<div class="col-md-3 text-center div-hover">Servicios</div>
 			<div class="col-md-3 text-center div-hover">Contacto</div>
-			<div class="col-md-3 text-center div-hover">Quienes somos</div>
+			<div class="col-md-3 text-center div-hover navbar-radius-inverse">Quienes somos</div>
 		</div>
 	</div>
 	<div class="col-md-1">
