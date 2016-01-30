@@ -15,13 +15,19 @@ header{
 
 .img-navbar-nav{
 	padding:5px;
+	width:220px;
 }
 .contenedores{
-	height:500px;
-	background:#efefef;
+	
 	
 }
 
+/*#icon_cont1{
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}*/
 
 .custom-navbar{
 	position:fixed;
@@ -30,7 +36,25 @@ header{
 }
 
 .slideshow{
+	background:url(http://localhost:8080/infortran/assets/img/slider1.jpg);
+	height:350px;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+}
 
+.parallax-window{
+	
+	min-height:400px;
+	
+}
+
+.tri-banner{
+	border-radius:5px;
+	border:3px solid #cb6018;
+	background:rgba(255,255,255,.7);
+	min-height:300px;
+	text-decoration:none;
+	color:#a0a0a0;
 }
 
 .btn-navbar{
@@ -64,6 +88,11 @@ header{
 
 .display-none{
 	display:hidden;
+}
+
+.icon-design{
+	color:#cb6018;
+	font-size:110px;
 }
 
 .margin-top-5{
@@ -104,4 +133,42 @@ header{
 
 .margin-top-50{
 	margin-top:50px;
+}
+
+.margin-top-55{
+	margin-top:55px;
+}
+.margin-top-60{
+	margin-top:60px;
+}
+.margin-top-65{
+	margin-top:65px;
+}
+.margin-top-70{
+	margin-top:70px;
+}
+
+.glyphicon.spinning {
+    animation: spin 1s linear;
+    -webkit-animation: spin2 1s linear;
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg); }
+    to { transform: scale(1) rotate(360deg); }
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+
+@media(max-width:990px){
+	.navbar-radius{
+		border-radius:17px 17px 0px 0px;
+	}
+
+	.navbar-radius-inverse{
+		border-radius: 0px 0px 17px 17px ;
+	}
 }

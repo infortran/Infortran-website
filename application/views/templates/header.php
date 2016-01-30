@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="<?php echo base_url() ?>assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="<?php echo base_url() ?>assets/css/animate.css">
 	<link rel="stylesheet" href="<?php echo base_url() ?>assets/css/style.css">
 </head>
 <body>

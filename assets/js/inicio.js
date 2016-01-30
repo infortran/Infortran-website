@@ -6,6 +6,15 @@ $(document).ready(function(){
 	$('#navbar-btns').hide();
 	$('.custom-navbar').hide();
 	
+	/*$('#cont1').hover(function(){
+		$('#icon_cont1').removeClass('glyphicon-th-large',1000);
+		$('#icon_cont1').addClass('glyphicon-th',1000);
+	}, function(){
+		$('#icon_cont1').addClass('glyphicon-th-large',1000);
+		$('#icon_cont1').removeClass('glyphicon-th',1000);
+	});*/
+	new WOW().init();
+	
 });
 
 $(window).scroll(function(){
